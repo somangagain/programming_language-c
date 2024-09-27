@@ -26,7 +26,7 @@ int main(void) {
 
 
 	// 한 줄의 문자열은 gets_s를 이용해 입력, puts를 이용해 출력한다.
-	char string[100] = "omg\nhi\nbi";
+	char string[100];
 
 	// gets_s는 \n이 나올 때까지 계속해서 입력받으며, \n을 입력받으면 이를 \0으로 바꾸어 저장한다.
 	gets_s(string, sizeof(string));
